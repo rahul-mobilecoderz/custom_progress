@@ -1,7 +1,7 @@
 name: custom_progressbar
-description: "A new Flutter package project."
+description: "A custom progressbar package for circular progress indicator"
 version: 0.0.1
-homepage:
+homepage: https://github.com/rahul-mobilecoderz/custom_progress
 
 environment:
   sdk: '>=3.3.4 <4.0.0'

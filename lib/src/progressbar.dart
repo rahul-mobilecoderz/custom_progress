@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 class ProgressBar extends StatelessWidget {
-  Color progressColor = Colors.greenAccent;
-  double progressStrokeWidth = 0.0;
-  BoxFit boxFit;
-  double containerHeight, containerWidth;
-  double iconHeight, iconWidth;
-  String imageFile;
-  double progressHeight, progressWidth;
+ final Color progressColor;
+  final double progressStrokeWidth ;
+  final BoxFit boxFit;
+  final double containerHeight, containerWidth;
+ final double iconHeight, iconWidth;
+  final String imageFile;
+  final double progressHeight, progressWidth;
 
   ProgressBar(
       {Key? key,
